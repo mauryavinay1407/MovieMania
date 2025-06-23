@@ -5,7 +5,7 @@ const Navbar = () => {
   const { setIsAIOpen } = useAIAssistant();
 
   return (
-    <nav className="bg-gray-900 border-b border-gray-800 fixed top-0 w-full z-10">
+    <nav className="bg-gray-900 border-b border-gray-800 fixed top-0 w-full z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <a href="/" className="text-xl font-bold text-white">
