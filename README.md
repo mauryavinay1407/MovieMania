@@ -23,8 +23,8 @@ A modern React web application to search movies using [TMDB API](https://www.the
 ### 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/movie-search-ai.git
-cd movie-search-ai
+git clone https://github.com/mauryavinay1407/MovieMania
+cd MovieMania
 ```
 
 ### 2. **Install dependencies**
