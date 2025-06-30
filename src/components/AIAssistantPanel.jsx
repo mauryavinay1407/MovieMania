@@ -14,7 +14,7 @@ const AIAssistantPanel = () => {
   const isMoviePage = location.pathname.startsWith('/movie/');
 
   return (
-    <div className="fixed right-0 top-0 h-full w-96 bg-gray-900 shadow-lg z-50 pt-16">
+    <div className="fixed right-0 top-0 h-full sm:w-96 bg-gray-900 shadow-lg z-50 pt-16">
       <div className="p-4 h-[calc(100%-4rem)] overflow-y-auto">
         <button
           onClick={() => setIsAIOpen(false)}

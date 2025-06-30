@@ -7,8 +7,8 @@ const SearchBar = ({ query, setQuery, onSearch }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="relative">
-            <div className="flex gap-2">
+        <form onSubmit={handleSubmit} className="relative  w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row gap-2">
                 <input
                     type="text"
                     value={query}
